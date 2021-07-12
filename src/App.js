@@ -22,6 +22,7 @@ class App extends React.Component
             onChange={this.handleChange}
             placeholder="Password"
           />
+          <button /*onClick={() => this.handleClick(tarea.id)}*/>Log in</button>
         </header>
       </div>
     );
